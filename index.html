@@ -162,6 +162,8 @@
             <li class="nav-item"><a class="nav-link" href="#">Security & Encounters</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Politics</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="/admin/" target="_blank">Admin</a></li>
           </ul>
         </div>
       </div>
@@ -205,18 +207,6 @@
         <!-- Latest News Grid -->
         <h3 class="mb-4 border-bottom pb-2">Latest Stories</h3>
         <div class="row g-4">
-          <h3>From Blog Posts</h3>
-{% for post in site.posts limit: 5 %}
-  <div class="card mb-3">
-    <div class="card-body">
-      <h5 class="card-title">{{ post.title }}</h5>
-      <p class="text-muted small">{{ post.date | date: "%B %d, %Y" }}</p>
-      {{ post.excerpt | truncate: 100 }}
-      <a href="{{ post.url }}" class="btn btn-sm btn-outline-danger">Read More</a>
-    </div>
-  </div>
-{% endfor %}
-
           <div class="col-md-6">
             <div class="card h-100 border-0 shadow-sm">
               <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="News">
