@@ -1,0 +1,5 @@
+title: Kashmir Latest News
+description: Jammu & Kashmir Updates
+theme: minima  # Or any free Jekyll theme
+plugins:
+  - jekyll-feed
