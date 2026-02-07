@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kashmir Latest News - Jammu & Kashmir Updates</title>
+  <meta name="description" content="Latest news from Kashmir, Jammu and Kashmir region - encounters, security, politics, and regional developments."/>
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  
+  <style>
+    :root {
+      --primary-red: #c8102e;
+      --dark-bg: #111;
+      --light-bg: #f8f9fa;
+    }
+    
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: var(--light-bg);
+      color: #222;
+      line-height: 1.6;
+    }
+    
+    .dark-mode {
+      background: var(--dark-bg);
+      color: #e0e0e0;
+    }
+    
+    .dark-mode .card, .dark-mode .bg-white {
+      background: #1e1e1e !important;
+      color: #e0e0e0 !important;
+      border-color: #444 !important;
+    }
+    
+    header {
+      background: white;
+      border-bottom: 4px solid var(--primary-red);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    
+    .navbar-brand {
+      font-size: 2.1rem;
+      font-weight: bold;
+      color: var(--primary-red) !important;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    .nav-link {
+      font-weight: 600;
+      color: #333 !important;
+    }
+    
+    .nav-link:hover, .nav-link.active {
+      color: var(--primary-red) !important;
+    }
+    
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('https://images.unsplash.com/photo-1580130718646-9f694209b207?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 120px 0 80px;
+      text-align: center;
+    }
+    
+    .hero h1 {
+      font-size: 3.8rem;
+      font-weight: 900;
+      text-shadow: 3px 3px 8px rgba(0,0,0,0.7);
+    }
+    
+    .breaking {
+      background: var(--primary-red);
+      color: white;
+      padding: 12px 0;
+      font-weight: bold;
+      text-align: center;
+      font-size: 1.3rem;
+    }
+    
+    .card-img-top {
+      height: 220px;
+      object-fit: cover;
+    }
+    
+    .card-title {
+      font-size: 1.45rem;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+    
+    .sidebar h5 {
+      border-bottom: 3px solid var(--primary-red);
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+    
+    .trending-item {
+      border-bottom: 1px solid #eee;
+      padding: 12px 0;
+    }
+    
+    .dark-mode .trending-item {
+      border-bottom: 1px solid #444;
+    }
+    
+    footer {
+      background: #1a1a1a;
+      color: #ccc;
+      padding: 50px 0 30px;
+    }
+    
+    .form-control:focus {
+      border-color: var(--primary-red);
+      box-shadow: 0 0 0 0.25rem rgba(200,16,46,0.25);
+    }
+    
+    .btn-danger {
+      background: var(--primary-red);
+      border: none;
+    }
+    
+    .btn-danger:hover {
+      background: #a00d24;
+    }
+    
+    .dark-mode-toggle {
+      position: fixed;
+      top: 20px;
+      right: 30px;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Dark Mode Toggle -->
+  <div class="dark-mode-toggle form-check form-switch">
+    <input class="form-check-input" type="checkbox" id="darkSwitch" onclick="toggleDarkMode()">
+    <label class="form-check-label" for="darkSwitch">Dark Mode</label>
+  </div>
+
+  <!-- Header / Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">KASHMIR LATEST NEWS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Kashmir Valley</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Jammu Region</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Security & Encounters</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Politics</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Breaking News Ticker -->
+  <div class="breaking">
+    BREAKING: Security forces foil infiltration bid in Kupwara – 2 militants neutralized
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Real-Time Updates from Jammu & Kashmir</h1>
+      <p class="lead mt-3">Independent coverage of encounters, developments, regional stories and more.</p>
+      <a href="#featured" class="btn btn-lg btn-danger mt-4 px-5">Read Today's Top Story</a>
+    </div>
+  </section>
+
+  <main class="container my-5">
+    <div class="row">
+
+      <!-- Main Content - Featured + Grid -->
+      <div class="col-lg-8">
+
+        <!-- Featured Article -->
+        <section id="featured" class="mb-5">
+          <div class="card border-0 shadow-lg">
+            <img src="https://images.unsplash.com/photo-1622473596148-73d27e35e764?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" class="card-img-top" alt="Featured">
+            <div class="card-body">
+              <span class="badge bg-danger mb-2">FEATURED</span>
+              <h2 class="card-title">Heavy Gunfight Erupts in Shopian Forests – Operation Ongoing</h2>
+              <p class="text-muted">February 7, 2026 | Security Forces</p>
+              <p class="lead">Security forces engaged in fierce exchange of fire with militants in Shopian district. Drones deployed, area cordoned off. Latest updates inside.</p>
+              <a href="#" class="btn btn-outline-danger">Read Full Story →</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Latest News Grid -->
+        <h3 class="mb-4 border-bottom pb-2">Latest Stories</h3>
+        <div class="row g-4">
+
+          <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="News">
+              <div class="card-body">
+                <h5 class="card-title">Two Soldiers Injured in IED Blast on Jammu-Srinagar Highway</h5>
+                <p class="card-text text-muted small">Quick reaction teams rushed to spot. Traffic restored after 4 hours.</p>
+                <a href="#" class="btn btn-sm btn-outline-danger">Continue Reading</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <img src="https://images.unsplash.com/photo-1593341646782-e0b495cff86d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="News">
+              <div class="card-body">
+                <h5 class="card-title">Youth Protest in Anantnag Over Power Cuts – Administration Responds</h5>
+                <p class="card-text text-muted small">Authorities assure additional feeders; situation tense but under control.</p>
+                <a href="#" class="btn btn-sm btn-outline-danger">Continue Reading</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <img src="https://images.unsplash.com/photo-1581092160560-1c1e428e9d65?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="News">
+              <div class="card-body">
+                <h5 class="card-title">Amarnath Yatra Preparations Begin – Security Tightened</h5>
+                <p class="card-text text-muted small">New SOPs introduced; pilgrims to get real-time updates via app.</p>
+                <a href="#" class="btn btn-sm btn-outline-danger">Continue Reading</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <img src="https://images.unsplash.com/photo-1603733265789-4d049c2a9c70?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="News">
+              <div class="card-body">
+                <h5 class="card-title">Tourism Rebounds in Gulmarg – Record Footfall This Season</h5>
+                <p class="card-text text-muted small">Hotels at 90% occupancy; adventure sports see surge in bookings.</p>
+                <a href="#" class="btn btn-sm btn-outline-danger">Continue Reading</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Pagination -->
+        <nav class="mt-5">
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="col-lg-4">
+
+        <!-- Search -->
+        <div class="mb-4">
+          <input type="text" class="form-control" placeholder="Search news...">
+        </div>
+
+        <!-- Categories -->
+        <div class="mb-5">
+          <h5>Categories</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a href="#">Encounters & Operations</a></li>
+            <li class="list-group-item"><a href="#">Jammu Updates</a></li>
+            <li class="list-group-item"><a href="#">Kashmir Valley</a></li>
+            <li class="list-group-item"><a href="#">Politics & Governance</a></li>
+            <li class="list-group-item"><a href="#">Tourism & Economy</a></li>
+            <li class="list-group-item"><a href="#">Weather & Disasters</a></li>
+          </ul>
+        </div>
+
+        <!-- Trending -->
+        <div class="mb-5">
+          <h5>Trending Now</h5>
+          <div class="trending-item">
+            <a href="#">Militant Hideout Busted in Bandipora</a>
+          </div>
+          <div class="trending-item">
+            <a href="#">Snowfall Alert for Higher Reaches</a>
+          </div>
+          <div class="trending-item">
+            <a href="#">J&K LG Reviews Security Grid</a>
+          </div>
+          <div class="trending-item">
+            <a href="#">Gurez Valley Road Reopens</a>
+          </div>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="card border-0 shadow-sm mb-4">
+          <div class="card-body text-center">
+            <h5>Subscribe to Updates</h5>
+            <p class="small">Get breaking news straight to your inbox.</p>
+            <form>
+              <input type="email" class="form-control mb-3" placeholder="Your email">
+              <button type="submit" class="btn btn-danger w-100">Subscribe</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Social -->
+        <div class="text-center">
+          <h5>Follow Us</h5>
+          <a href="https://www.facebook.com/kashmir234" class="fs-3 mx-2 text-danger"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="fs-3 mx-2 text-danger"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="fs-3 mx-2 text-danger"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="fs-3 mx-2 text-danger"><i class="fab fa-youtube"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Admin Panel (simulated) -->
+  <section class="container my-5 bg-light p-5 rounded shadow">
+    <h3 class="text-center mb-4">Write New Article (Admin)</h3>
+    <form>
+      <div class="mb-3">
+        <label class="form-label">Article Title</label>
+        <input type="text" class="form-control" placeholder="Enter headline">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Category</label>
+        <select class="form-select">
+          <option>Kashmir Valley</option>
+          <option>Jammu Region</option>
+          <option>Security</option>
+          <option>Politics</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Featured Image URL</label>
+        <input type="url" class="form-control" placeholder="https://...">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Article Content</label>
+        <textarea class="form-control" rows="10" placeholder="Write your story here..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-danger btn-lg w-100">Publish Article</button>
+    </form>
+    <p class="text-muted mt-3 small text-center">Note: This is a demo form. For real publishing, use GitHub + Jekyll or a CMS.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+      <p>&copy; 2026 Kashmir Latest News. All rights reserved.</p>
+      <p>
+        <a href="#" class="text-light mx-2">Privacy Policy</a> |
+        <a href="#" class="text-light mx-2">Terms of Use</a> |
+        <a href="#" class="text-light mx-2">Contact Us</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+                                                            </html>
