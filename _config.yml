@@ -6,3 +6,8 @@ url: "https://kashmirlatestnews.github.io"
 theme: minima  # simple default theme (you can change later)
 
 show_excerpts: true
+# Optional but helps with Netlify
+plugins:
+  - jekyll-feed
+
+# If you use any other plugins later, add them here
