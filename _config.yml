@@ -1,5 +1,8 @@
 title: Kashmir Latest News
 description: Jammu & Kashmir Updates
-theme: minima  # Or any free Jekyll theme
-plugins:
-  - jekyll-feed
+baseurl: ""
+url: "https://kashmirlatestnews.github.io"
+
+theme: minima  # simple default theme (you can change later)
+
+show_excerpts: true
