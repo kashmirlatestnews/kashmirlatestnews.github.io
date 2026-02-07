@@ -205,6 +205,17 @@
         <!-- Latest News Grid -->
         <h3 class="mb-4 border-bottom pb-2">Latest Stories</h3>
         <div class="row g-4">
+          <h3>From Blog Posts</h3>
+{% for post in site.posts limit: 5 %}
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">{{ post.title }}</h5>
+      <p class="text-muted small">{{ post.date | date: "%B %d, %Y" }}</p>
+      {{ post.excerpt | truncate: 100 }}
+      <a href="{{ post.url }}" class="btn btn-sm btn-outline-danger">Read More</a>
+    </div>
+  </div>
+{% endfor %}
 
           <div class="col-md-6">
             <div class="card h-100 border-0 shadow-sm">
