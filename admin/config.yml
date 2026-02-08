@@ -8,7 +8,7 @@ public_folder: "/assets/images"        # how they appear on site
 collections:
   - name: "articles"
     label: "News Articles"
-    folder: "articles"                 # new files saved here
+    folder: "_posts"                 # new files saved here
     create: true                       # allows creating new articles
     slug: "{year}-{month}-{day}-{slug}"
     fields:
