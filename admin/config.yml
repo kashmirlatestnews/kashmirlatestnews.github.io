@@ -1,16 +1,15 @@
 backend:
-  name: github
-  repo: kashmirlatestnews/kashmirlatestnews.github.io
+  name: git-gateway
   branch: main
 
-media_folder: "assets/images"      # images you upload go here
-public_folder: "/assets/images"    # how they appear on site
+media_folder: "assets/images"          # images you upload go here
+public_folder: "/assets/images"        # how they appear on site
 
 collections:
   - name: "articles"
     label: "News Articles"
-    folder: "articles"               # new files saved here
-    create: true                     # allows creating new articles
+    folder: "articles"                 # new files saved here
+    create: true                       # allows creating new articles
     slug: "{year}-{month}-{day}-{slug}"
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
@@ -18,6 +17,3 @@ collections:
       - {label: "Category", name: "category", widget: "select", options: ["Security", "Jammu", "Kashmir Valley", "Politics", "Tourism", "Other"]}
       - {label: "Featured Image", name: "image", widget: "image", required: false}
       - {label: "Article Content", name: "body", widget: "markdown", required: true}
-      backend:
-  name: git-gateway
-  branch: main
