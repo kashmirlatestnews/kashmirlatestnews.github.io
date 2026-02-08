@@ -1,0 +1,12 @@
+title: Kashmir Latest News
+description: Jammu & Kashmir Updates
+
+baseurl: ""
+url: "https://teststnews.netlify.app"   # change to your Netlify URL
+
+theme: minima
+
+show_excerpts: true
+
+plugins:
+  - jekyll-feed
