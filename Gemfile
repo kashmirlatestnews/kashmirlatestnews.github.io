@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3"
-
+gem "minima", "\~> 2.5"
 # Required for newer Ruby versions on Netlify/GitHub Pages
 gem "webrick", "~> 1.8"
 
