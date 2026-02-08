@@ -1,9 +1,14 @@
+---
+title: One Terrorist Neutralised in Ongoing Operation in Kishtwar District
+date: 2026-02-08T13:32:00.000+05:30
+category: Kashmir Valley
+image: /assets/images/1000327202.jpg
+---
+```apex
+One Terrorist Neutralised in Ongoing Operation in Kishtwar District
+Security forces neutralised one suspected terrorist during an ongoing joint operation in the higher reaches of Kishtwar district in Jammu and Kashmir. The contact occurred in the Dichhar area around late afternoon, as part of continued efforts to locate militants in the region.
+The operation, involving troops from the Army, Jammu and Kashmir Police, and Central Reserve Police Force, re-established engagement with individuals believed to be on the run following earlier contacts in the same belt. Officials reported that the individual was eliminated in the exchange of fire, and search activities remain active in the challenging, snow-affected terrain.
+This incident is linked to a series of recent operations in the Chhatroo and surrounding forest areas, where security teams have been conducting searches based on intelligence inputs about militant presence. No casualties were reported among security personnel in this specific contact.
+Surveillance has been stepped up in nearby zones, including parts of Doda district, to prevent any possible movement of individuals across locations. Authorities continue to monitor the situation closely amid difficult weather and geographical conditions.
+The operation highlights sustained counter-insurgency measures in the Jammu region's hilly districts to address security concerns.
 ```
-layout: post
-title: "Chemical Leak Reported Near Jammu Airport; Emergency Teams Contain Incident"
-date: 2026-02-07
-categories: securityJammu, February 7, 2026 — A chemical leak occurred on Jammu Airport Road on Saturday, triggering a rapid response from disaster management authorities. No casualties have been reported, and the situation has been brought under control.The incident took place near a shop approximately 500 meters from Jammu Airport, where a cylinder reportedly leaked a hazardous substance. Initial reports from local sources and media described the leaked chemical as sulfur mustard (also referred to as mustard sulfur or mustard gas), a highly toxic blistering agent classified as a chemical warfare material.Teams from the National Disaster Response Force (NDRF) and State Disaster Response Force (SDRF), equipped with protective gear, were deployed to the site along with local police, fire services, and other emergency personnel. Authorities stated that containment measures were successfully implemented, securing the area and preventing further spread of the substance.Official statements emphasized that the situation is now stable, with no immediate risk to the public. An investigation has been initiated to determine the exact nature of the leaked material through scientific analysis, as well as to establish how the cylinder came to be at the location. While some sources suggested a possible defense-related connection for the substance, officials have not confirmed this detail, and the probe remains ongoing.Sulfur mustard is a prohibited chemical agent under international conventions due to its severe effects on skin, eyes, and respiratory system, potentially causing burns, blisters, and long-term health damage.Local residents in the vicinity experienced panic following the leak, but emergency services assured the community that the area is safe following the response operation. Further updates are expected as the investigation progresses.Authorities have urged the public to avoid speculation and rely on official communications regarding the incident.
-
-```
-
- 
