@@ -1,3 +1,21 @@
+---
+layout: default
+---
+
+<section class="all-articles">
+  <h2>All Articles</h2>
+  <div class="article-grid">
+    {% for post in site.posts %}
+      <div class="article-card">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p class="meta">{{ post.date | date: "%B %d, %Y" }} • {{ post.categories | join: ", " }}</p>
+        <p class="excerpt">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+        <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
