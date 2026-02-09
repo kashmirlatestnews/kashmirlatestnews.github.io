@@ -4,7 +4,7 @@ title: "Ongoing Security Operations in Kishtwar: Forces Press Ahead in Operation
 date: 2026-02-09
 categories: [security, encounters, kishtwar, jammu-kashmir]
 excerpt: "As of February 9, 2026, joint security forces continue intensive search-and-cordon efforts in Kishtwar district under Operation Trashi-I, now in its third week. No fresh contacts reported today, but the hunt for hiding militants remains active in snow-bound forests."
-image: /assets/images/1000321123.jpg  # Add your photo here
+image: /assets/images/1000327199.jpg  # Add your photo here
 ---
 
 Security forces in Jammu and Kashmir are maintaining strong momentum in their counter-terrorism efforts, with **Operation Trashi-I** in Kishtwar district remaining one of the most active and prolonged operations in the region as of February 9, 2026. Launched more than 20 days ago, the joint operation by the Indian Army (White Knight Corps), Jammu and Kashmir Police, and Central Reserve Police Force (CRPF) continues to focus on eliminating militant hideouts in the challenging, high-altitude forests of the Chatroo belt.
