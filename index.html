@@ -20,7 +20,6 @@ layout: default
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="google-site-verification" content="-9x43OwSnP8TxRylWqZZ0AHAiZYLcVKjyLNTw34YNKQ" />
   <meta name="google-site-verification" content="kACySnoUPsfx4gsLici1ZihEDZ6B4se6ntO0JPB-EAc" />
@@ -38,18 +37,6 @@ layout: default
       --dark-bg: #111;
       --light-bg: #f8f9fa;
     }
-    <script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
-
     body {
       font-family: 'Georgia', 'Times New Roman', serif;
       background: var(--light-bg);
