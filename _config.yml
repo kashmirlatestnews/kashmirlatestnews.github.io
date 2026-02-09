@@ -1,8 +1,7 @@
 title: Kashmir Latest News
-description: Jammu & Kashmir Updates
-
-baseurl: ""
-url: "https://kashmirlatestnews.github.io/"   # change to your Netlify URL
+description: Kashmir and jammu latest news update 
+baseurl: "" 
+url: "https://kashmirlatestnews.github.io/"
 
 theme: minima
 
@@ -10,3 +9,4 @@ show_excerpts: true
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
